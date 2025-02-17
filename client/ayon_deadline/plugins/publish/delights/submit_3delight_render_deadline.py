@@ -34,9 +34,6 @@ class RenderDLPluginInfo:
     """Requires RenderDL plugin for Deadline
     """
     SceneFile: str = field()
-    # TODO: rewrite to RenderDL
-    RenderSettings: str = field(default="/Render/rendersettings")
-    Snapshot: int = field(default=-1)
     LogLevel: str = field(default="2")
     Version: str = field(default="")
 
